@@ -1,7 +1,7 @@
 from passlib.context import CryptContext
 
 
-pwt_context=CryptContext(schemes=['bcrypt'],deperecated="auto")
+pwt_context=CryptContext(schemes=['bcrypt'])
 
 
 class Hasher:
