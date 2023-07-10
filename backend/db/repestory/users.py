@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from schemas.users import UserCreate
+from schemas.users import UserCreate,ShowUser
 from db.models.users import User
 from core.hashing import Hasher
 def create_new_user(user:UserCreate,db=Session):

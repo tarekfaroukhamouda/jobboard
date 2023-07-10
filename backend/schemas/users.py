@@ -11,3 +11,5 @@ class ShowUser(BaseModel):
     username:str
     email:EmailStr
     is_actibe:bool
+    class Config:
+        orm_mode=True
